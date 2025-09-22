@@ -183,19 +183,4 @@ This guide lists all possible tests for the ReadRate backend API. Use Postman or
   * Fail: deleting someone else's review → 403
   * Fail: review not found → 404
 
-## Notes for Testing
-
-* Include JWT cookie for authenticated routes.
-* Test pagination by adding many books and reviews.
-* Test filters by creating multiple authors and genres.
-* Test averageRating by adding multiple reviews to a book.
-* Test search using partial and case-insensitive terms.
-
-```
-
-This is a **single-page `.md`** file with all endpoints, tests, and notes.  
-
-If you want, I can also make a **ready-to-import Postman JSON collection** for all these endpoints so you can test them instantly. Do you want me to do that?
-```
-
 
